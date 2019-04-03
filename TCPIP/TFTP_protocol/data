@@ -1,0 +1,14 @@
+ Value Meaning
+
+ 0 Not defined, see error message (if any).
+ 1 File not found.
+ 2 Access violation.
+ 3 Disk full or allocation exceeded.
+ 4 Illegal TFTP operation.
+ 5 Unknown transfer ID.
+ 6 File already exists.
+ 7 No such user.
+Internet User Datagram Header [2]
+ (This has been included only for convenience. TFTP need not be
+ implemented on top of the Internet User Datagram Protocol.)
+ Format
